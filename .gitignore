@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno 
+.env
+.env.local
+*.secret
+
+# Datos (los datos no van en Git)
+data/
+*.csv
+*.parquet
+*.xlsx
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
